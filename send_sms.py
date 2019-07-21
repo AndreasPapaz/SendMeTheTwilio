@@ -1,7 +1,8 @@
+import cred
 from twilio.rest import Client
 
-account_sid = 'ACf0d23e492b6558493ecbe708fa8cb292'
-auth_token = 'd279750e386d3cc08fe35f658d51644f'
+account_sid = cred.account_sid
+auth_token = cred.auth_token
 client = Client(account_sid, auth_token)
 
 
